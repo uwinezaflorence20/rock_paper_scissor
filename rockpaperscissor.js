@@ -10,8 +10,6 @@ const getUserChoice = userInput =>{
     console.log('error happened')
   }
 };
-var input = getUserChoice("paper");
-console.log(input);
 //console.log(getUserChoice('Paper'));
 
 // COMPUTER MAKE A CHOICE
@@ -28,8 +26,8 @@ const getComputerChoice = () =>{
   }
 };
 // testing computer choice
-const rdm = getComputerChoice('rock');
-console.log(rdm);
+//const rdm = getComputerChoice('rock');
+//console.log(rdm);
 
 const determineWinner = (userChoice , computerChoice) =>{
     if (userChoice === computerChoice) {
@@ -65,9 +63,9 @@ const determineWinner = (userChoice , computerChoice) =>{
   }
       
 };
-console.log(determineWinner('paper', 'scissors'));
-console.log(determineWinner('paper', 'paper'));
-console.log(determineWinner('paper', 'rock')); 
+//console.log(determineWinner('paper', 'scissors'));
+//console.log(determineWinner('paper', 'paper'));
+//console.log(determineWinner('paper', 'rock')); 
 
 
 // function to play a game
